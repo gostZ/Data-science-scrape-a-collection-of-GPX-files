@@ -25,7 +25,9 @@ Min Uphill + downhill
 2.	Find the five hilliest (most uphill) contiguous stages in EuroVelo 1.
 ## Task 3. Test the accuracy of the distance estimates
 The figure below shows sample GPX track points shown in green/orange. The length_3d method in the gpxpy library effectively calculates straight-line distances between these points so the distance estimates are underestimates.
+	
  <img width="228" alt="image" src="https://user-images.githubusercontent.com/50789587/221416775-65d6e21f-319c-44b4-94ed-1f5d389af62d.png">
+	
 The extent of these underestimations can be estimated using a mapping service API, e.g. 
 ●	MapBox https://www.mapbox.com 
 ●	Googlemaps https://pypi.org/project/googlemaps/ (requires credit card details)
